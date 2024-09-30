@@ -1,5 +1,8 @@
 # State Machine For Live Event Navigator
-## Team Details
+<details>
+  <summary>## Team Details</summary>
+  Your team details go here
+</details>
 ## Abstract
 ## Working
 ## Logisim Circuit Diagram
