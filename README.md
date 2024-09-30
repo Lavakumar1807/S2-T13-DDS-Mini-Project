@@ -1,6 +1,7 @@
 # State Machine For Live Event Navigator
+## Team Details
 <details>
-  <summary>## Team Details</summary>
+  <summary>Detail</summary>
   Your team details go here
 </details>
 ## Abstract
