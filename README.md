@@ -24,6 +24,12 @@
   abstract
 </details>
 
+## Functional Block Diagram
+<details>
+  <summary>Detail</summary>
+  Block diagram
+</details>
+
 ## Working
 <details>
   <summary>Detail</summary>
@@ -37,6 +43,12 @@
 </details>
 
 ## Verilog Code
+<details>
+  <summary>Detail</summary>
+  Your team details go here
+</details>
+
+## References
 <details>
   <summary>Detail</summary>
   Your team details go here
