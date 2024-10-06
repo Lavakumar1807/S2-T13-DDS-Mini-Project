@@ -40,7 +40,8 @@ exhibition. This system puts forward an innovative solution to the individual by
 conscious of the ongoing events through various mediums. It focuses on people’s satisfaction
 and their experience towards the event.
 
-3. **Features**
+3. **Features**:
+
    •  **Categorizing by event type**:</t>
    > Categorizing by event type helps in organizing events
 into various groups based on their characteristics.
