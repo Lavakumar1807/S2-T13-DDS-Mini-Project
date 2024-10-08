@@ -71,7 +71,7 @@ immediately during unfortunate disruptions.
 ## Functional Block Diagram
 <details>
   <summary>Detail</summary>
-  Block diagram
+  ![S2-T13-draw.io](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/tree/afd7c4992c9c4bd8d93ee9ba82a7fb21c4f81db8/Snapshots)
 </details>
 
 ## Working
