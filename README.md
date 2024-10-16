@@ -72,7 +72,7 @@ immediately during unfortunate disruptions.
 <details>
   <summary>Detail</summary>
   
-  ![S2-T13-draw.io]()
+  ![S2-T13-draw.io](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/607aad88e5306787821d21be0d134003052b2f7a/Snapshots/S2-T13.draw.io.png)
 </details>
 
 ## Working
