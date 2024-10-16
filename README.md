@@ -78,7 +78,89 @@ immediately during unfortunate disruptions.
 ## Working
 <details>
   <summary>Detail</summary>
-  Your team details go here
+  <h3>Outline : </h3>
+  
+  <p>Usually when a person enters the auditorium or exhibition, there will be numerous
+ events going on there. There will be a LED corresponding each event and it lights up when
+ the event is going on and has seats available in it. Among the events going on there, the
+ person has an option to choose the particular event he likes the most and he can choose that
+ event which he wants to go in. After going to a particular event, after some time, he can also
+ switch to another event based on his interest and wish, if there are seats available in that event.
+    
+ There is a special facility for VIP’s or Tax Payer’s, as they can enter any event going on,
+ on their wish, independent of seats available in that particular event. Similarly, during switch
+ing of an event, seats availability of that event was not considered for them.
+
+ There is also one more facility available for volunteer’s and workers attending the event, where
+ they are allowed directly into the particular event without any regulations.</p>
+
+ <h3>Main Process : </h3>
+
+ <p>Initially a person will be entered into the event accordingly to the inputs, where the inputs are person type and vacancy of the event.
+
+If the person entered is a part of general audience then he'll be allowed according to the vacancy denoted by the vacancy indicator, which is constructed using comparator. At this point of time both the present count and total count of the participants will be incremented, where the present count is implemented by using adders, subtractors, registers and total count is implemented by adders, registers. In the case of completely occupied event, he'll be allowed to choose other events accordingly to the same circumstances. Even after entering the event we have a possibility of switching into other events which is co-ordinated by Event switcher, which is developed using basic logic gates. In this case of event switching, present count of the event will be decremented and present count and total count of the event he wants to switch will be incremented.
+
+Correspondingly to the other input of person type denoting worker or volunteer, the event that they wanted to check-in will be directly permitted without considering any seat availability. Since the person was either volunteer or worker, both the present count and total count will not be incremented as don't occupy any seat.
+
+And finally, the last input from person type which indicates a VIP, again in this case the person will be allowed into the particular event that he wanted to visit without considering any vacancy terms. But only the total count of that event will be incremented without disturbing the present count of that event. Even during the time of switching, this particular kind of inputs are directly allowed into event with only total count increment.
+
+We will be having a Emergency alarm and a time counter, which are directly connected to a LED representing each event individually, including a vacancy indicator where it indicates the audience regarding the current possibility of getting into that particular event.
+</p>
+
+<h3>Flow Chart : </h3>
+
+![Flow-Chart](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/90429d8379098fcf0efff77102b811ff3fa7471a/Snapshots/Flow%20Chart.draw.io.png)
+
+<h3>Modules Used : </h3>
+
+> Seat Allocator : 
+
+![TT-1](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/90429d8379098fcf0efff77102b811ff3fa7471a/Snapshots/Seat%20Allocator%20Truth%20Table.png)
+
+<p>PC1 = !(P1F + P0F + E1F + E0F)
+  
+ TC1 = ((!P1F . !P0F) + (P1F . P0F)) . (!E0F . !E1F)
+ 
+ PC2 = (!P1F . !P0F . !E1F . E0F)
+ 
+ TC2 = ((!P1F . !P0F) + (P1F . P0F)) . (!E0F . E1F)
+ 
+ PC3 = (!P1F . !P0F . E1F . !E0F)
+ 
+ TC3 = ((!P1F . !P0F) + (P1F . P0F)) . (E0F . !E1F)
+ 
+ PC4 = (!P1F . !P0F . E1F . E0F)
+ 
+ TC4 = ((!P1F . !P0F) + (P1F . P0F)) . (E0F . E1F)</p>
+
+> Main Person Type :
+
+![TT-2](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/90429d8379098fcf0efff77102b811ff3fa7471a/Snapshots/Final%20Person%20Truth%20Table.jpg)
+
+<p> P1F = (!Switch . P1) + (Switch . !P1)
+  
+ P2F = (!Switch . P0) + (Switch . !P0)</p>
+
+> Main Event Type :
+
+![TT-3](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/90429d8379098fcf0efff77102b811ff3fa7471a/Snapshots/Final%20Event%20Truth%20Table.jpg)
+
+<p>E1F = (!Switch . E1) + (Switch . !E1)
+  
+ E2F = (!Switch . E0) + (Switch . !E0)</p>
+
+> Event Switcher :
+
+![TT-4](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/90429d8379098fcf0efff77102b811ff3fa7471a/Snapshots/Count%20Subtractor%20Truth%20Table.jpg)
+
+<p>S1 = (Switch) . !(P1' + P0') . (!E1' . !E0')
+  
+ S2 = (Switch) . !(P1' + P0') . (!E1' . E0')
+ 
+ S3 = (Switch) . !(P1' + P0') . (E1' . !E0')
+ 
+ S4 = (Switch) . !(P1' + P0') . (E1' . E0')</p>
+
 </details>
 
 ## Logisim Circuit Diagram
