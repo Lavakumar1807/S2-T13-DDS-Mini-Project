@@ -96,18 +96,19 @@ immediately during unfortunate disruptions.
    <h4>Vacancy Indicator Module</h4>
 
    ![Vacancy Indicator](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/6c8b3c78f93405a58323935246eea64b4a912bbb/Snapshots/Vacancy%20Indicator.png)
-
+   
    <h4>Time Counter Module</h4>
 
    ![Time Counter](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/6c8b3c78f93405a58323935246eea64b4a912bbb/Snapshots/Time%20Counter.png)
-
+   
    <h4>Register Module</h4>
 
    ![Register](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/6c8b3c78f93405a58323935246eea64b4a912bbb/Snapshots/Register.png)
-
+   
    <h4>Event Switcher Module</h4>
 
    ![Event Switcher](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/6c8b3c78f93405a58323935246eea64b4a912bbb/Snapshots/Event%20Switcher.png)
+   
 </details>
 
 ## Verilog Code
