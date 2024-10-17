@@ -195,8 +195,15 @@ We will be having a Emergency alarm and a time counter, which are directly conne
 
 ## Verilog Code
 <details>
-  <summary>Detail</summary>
-  Your team details go here
+  <summary>Gate Level</summary>
+</details>
+
+<details>
+  <summary>Data Flow or Behavioural Model </summary>
+</details>
+
+<details>
+  <summary>Output</summary>
 </details>
 
 ## References
