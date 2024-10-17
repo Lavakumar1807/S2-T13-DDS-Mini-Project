@@ -204,6 +204,8 @@ We will be having a Emergency alarm and a time counter, which are directly conne
 
 <details>
   <summary>Output</summary>
+
+  ![Output](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/c510cbb455572e7caf46206b322d16a77a544ad3/Snapshots/OUTPUT.png)
 </details>
 
 ## References
