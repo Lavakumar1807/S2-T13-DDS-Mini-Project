@@ -993,7 +993,7 @@ use. Finally we implemented in the order of individual modules</p>
 </details>
 <details>
   
-<summary>Components Used</summary>
+<summary>IC Used</summary>
 
 > 4-bit Comparator ( 7485 ) - For Vacancy Indicator
 
