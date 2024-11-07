@@ -978,6 +978,31 @@ endmodule
   ![Output](https://github.com/Lavakumar1807/S2-T13-DDS-Mini-Project/blob/c510cbb455572e7caf46206b322d16a77a544ad3/Snapshots/OUTPUT.png)
 </details>
 
+## Hardware Implementation
+<details>
+  <summary>Hardware</summary>
+  <p>The hardware implementation was a bit long process, which consisted of soldering, wire cutting,
+making bases into PCB’s and implementing all the circuit that we have did in logisim. Due to the
+time and material constraints we have scaled down our project accordingly to the resources provided.</p>
+  <p>Our project was scaled down to 2 input events, which is implemented as 4 inputs in logisim. Initially
+we wanted event type input as a 2-bit input, but we scaled it down and implemented with 1-bit
+input.Then we accordingly implemented it in hardware.</p>
+  <p>Initially we have been provided with 2 PCB’s and the bases separately, we soldered the bases into
+PCB’s and then we have soldered the wires into the positions accordingly to the IC’s we wanted to
+use. Finally we implemented in the order of individual modules</p>
+</details>
+<details>
+  
+<summary>Components Used</summary>
+
+> 4-bit Comparator ( 7485 ) - For Vacancy Indicator
+
+> 4-bit Parallel-access Shift Register IC ( 7495 ) - For Seat Allocator
+
+> 4-bit Adder ( 7483 ) - For Seat Allocator
+
+</details>
+
 ## References
 <details>
   <summary>Detail</summary>
